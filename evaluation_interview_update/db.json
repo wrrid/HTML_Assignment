@@ -1,0 +1,32 @@
+{
+  "goals": [
+    {
+      "id": "1",
+      "description": "Push up",
+      "category": "Strength Training",
+      "repetitions": "20 repetitions",
+      "achieved": false
+    },
+    {
+      "id": "2",
+      "description": "Tree",
+      "category": "Yoga",
+      "repetitions": "40 repetitions",
+      "achieved": false
+    },
+    {
+      "id": "3",
+      "description": "Run",
+      "category": "Cardio",
+      "repetitions": "50 minutes",
+      "achieved": false
+    },
+    {
+      "id": "c565",
+      "description": "bicycle",
+      "category": "Cardio",
+      "repetitions": "20 km",
+      "achieved": true
+    }
+  ]
+}

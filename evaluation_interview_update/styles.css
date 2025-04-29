@@ -1,0 +1,93 @@
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid grey;
+}
+
+.fitnessgoaltracker_topic {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.tracker_form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+label {
+    color: lightslategray;
+    text-align: left;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.goal_input,
+.goal_category,
+.goal_reps,
+.goal_add {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.goal_add {
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.goal_add:hover {
+  background-color: #004c00;
+}
+
+.goal_list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.goal_card {
+    margin-bottom: 6px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #eeeeee;
+    border: 1px solid #c9c8c8;
+    position: relative;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.goal_text {
+    flex: 1;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    white-space: normal;
+}
+
+.goal_card button.mark_btn {
+    top: 10px;
+    right: 10px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.goal_card button.mark_btn:hover {
+  background-color: #155da3;
+}
+
